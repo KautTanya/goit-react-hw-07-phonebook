@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import * as yup from 'yup';
-import { addContacts } from 'redux/contactsSlice';
+import { addContacts } from 'redux/operations';
 import { Formik} from "formik"
 import {Forma, Input, Error, Button, Label} from './ContactForm.styled'
 
